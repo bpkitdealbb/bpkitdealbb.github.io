@@ -1,0 +1,21 @@
+{
+  "short_name": "BPKitDealBB",
+  "name": "BPKitDealBB",
+  "icons": [
+    {
+      "src": "https://res.cloudinary.com/dkowkawiq/image/upload/v1782664301/20260628_222940_mbqpv2.webp",
+      "type": "image/webp",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://res.cloudinary.com/dkowkawiq/image/upload/v1782664301/20260628_222940_mbqpv2.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#f4f7f6",
+  "theme_color": "#006a4e",
+  "display": "standalone",
+  "orientation": "portrait"
+}
