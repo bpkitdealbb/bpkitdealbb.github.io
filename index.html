@@ -1207,7 +1207,7 @@ function showHeaderLoader(show) {
         function handleInterestRequest(productId) {
             if (!currentUser) { Swal.fire({ icon: 'warning', title: 'লগইন প্রয়োজন', text: 'আগ্রহ প্রকাশ করতে দয়া করে প্রথমে লগইন করুন।', confirmButtonColor: '#2563eb' }); showView('accountView'); return; }
             
-            Swal.fire({ title: 'আপনি কি নিশ্চিত?', text: "আপনি কি নিশ্চিত যে আপনি এই পণ্যটি কিনতে বা এক্সচেঞ্জ করতে আগ্রহী?", icon: 'question', showCancelButton: true, confirmButtonColor: '#2563eb', cancelButtonColor: '#d33', confirmButtonText: 'হ্যাঁ, পাঠাব', cancelButtonText: 'না' }).then((result) => {
+            Swal.fire({ title: 'আপনি কি নিশ্চিত?', text: "আপনি কি নিশ্চিত যে আপনি এই পণ্যটি বিক্রি করতে/কিনতে বা এক্সচেঞ্জ করতে আগ্রহী?", icon: 'question', showCancelButton: true, confirmButtonColor: '#2563eb', cancelButtonColor: '#d33', confirmButtonText: 'হ্যাঁ, পাঠাব', cancelButtonText: 'না' }).then((result) => {
                 if (result.isConfirmed) {
                     showLoader(true);
                     google.script.run.withSuccessHandler(res => { 
