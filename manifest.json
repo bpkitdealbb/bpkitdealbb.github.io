@@ -4,12 +4,12 @@
   "icons": [
     {
       "src": "https://res.cloudinary.com/dkowkawiq/image/upload/v1782670424/20260628_221401_fdnvm2.png",
-      "type": "image/webp",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
       "src": "https://res.cloudinary.com/dkowkawiq/image/upload/v1782670424/20260628_221401_fdnvm2.png",
-      "type": "image/webp",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
